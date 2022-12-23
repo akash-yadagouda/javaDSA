@@ -4,25 +4,22 @@ import java.util.*;
 public class CoinPiles{
 
 
-	static int minSteps(int[] pileArray, int size, int K) {
+	static int minSteps(int[] pileArray, int size, int k) {
 
 		int coinsToRemove = 0;
 
 		int start = 0;
 		int end = size - 1;
+		
+		for(int i =0; i<size; i++){
 
-		while(start < end){
-			int diff = pileArray[end] - pileArray[start];
-
-			if(diff > K){
-				coinsToRemove = coinsToRemove + (diff - K);
-				start++;
-				end--;
-			}
-			else{
-				break;
-			}
+			int diff = pileArray[i+1] - pileArray[i];
+			if(diff > k ){
+				coinsToRemove += diff - k;
+			} 
 		}
+
+
 		return coinsToRemove;
     }
 
