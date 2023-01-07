@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class AdjencyList {
+public class BFSUsingGraph {
 
 
 	public static ArrayList<Integer> BFS(int V, ArrayList<ArrayList<Integer>> adj) {

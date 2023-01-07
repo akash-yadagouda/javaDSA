@@ -2,7 +2,7 @@ package com.company;
 
 public class FindSmallestLetterGreaterThanTarget {
     public static void main(String[] args) {
-        char[] arr = {'c','f','j'};
+        char[] arr = {'c', 'f', 'j'};
         char target = 'c';
 //        char[] arr = {'e','e','e','e','e','e','n','n','n','n'};
 //        char target = 'e';
@@ -20,7 +20,7 @@ public class FindSmallestLetterGreaterThanTarget {
                 start = mid + 1;
             } else if (target < arr[mid]) {
                 end = mid - 1;
-            }else {
+            } else {
                 return (start - 1) % arr.length;
             }
         }

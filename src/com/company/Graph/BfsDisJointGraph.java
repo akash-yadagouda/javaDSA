@@ -1,18 +1,21 @@
 import java.util.*;
 
-public class AdjencyList {
+public class BfsDisJointGraph {
 
 
-	public static ArrayList<Integer> BFS(int V, ArrayList<ArrayList<Integer>> adj) {
-		boolean[] visited = new boolean[V];
+	public static ArrayList<Integer> BFS(int V,
+	                                     ArrayList<ArrayList<Integer>> adj,
+	                                     boolean[] visited,
+	                                     ArrayList<Integer> ans) {
+		// boolean[] visited = new boolean[V];
 		Queue<Integer> queue = new LinkedList<Integer>();
 
-		ArrayList<Integer> ans = new ArrayList<>();
+		// ArrayList<Integer> ans = new ArrayList<>();
 
-		visited[V - 1] = true;
+		visited[V] = true;
 
-		queue.add(V - 1);
-		ans.add(V - 1);
+		queue.add(V);
+		ans.add(V);
 
 		while (!queue.isEmpty()) {
 			int v = queue.poll();
@@ -69,7 +72,15 @@ public class AdjencyList {
 
 		printGraph(adList);
 
-		ArrayList<Integer> ans = BFS(V, adList);
+		// ArrayList<Integer> ans = BFS(V, adList);
+
+		boolean[] visited = new boolean[V];
+		ArrayList<Integer> ans = new ArrayList<Integer>();
+
+		for (int i = 0; i < V; i++) {
+			if (visited[i] == false)
+				ans = BFS(i, adList, visited, ans);
+		}
 
 		System.out.println("Ans :");
 		System.out.println(ans);
