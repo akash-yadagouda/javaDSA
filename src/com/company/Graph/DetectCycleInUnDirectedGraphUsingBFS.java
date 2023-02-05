@@ -29,18 +29,6 @@ public class DetectCycleInUnDirectedGraphUsingBFS {
 			}
 		}
 
-		for(int v : adj.get(u)){
-					int temp = dist[u] + dist(u,v);
-					if(temp < dist[v]){
-						dist[v] = temp;
-					}
-					
-					if(!q.isPresent(v)){
-						q.add(v);
-					}
-					
-			}
-
 		System.out.println("Shorttest distance from the vertex zero to all " + Arrays.toString(dist));
 
 

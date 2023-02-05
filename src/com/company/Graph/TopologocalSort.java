@@ -7,9 +7,12 @@ public class TopologocalSort {
 
 		Queue<Integer> queue = new LinkedList<>();
 
+		// arr : indegree array 
+		// any vertex which has the indegree zero starts from that
 		for(int i=0; i<arr.length; i++){
 			if(arr[i] == 0){
 				queue.add(i);
+				break;
 			}
 		}
 

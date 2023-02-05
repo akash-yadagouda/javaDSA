@@ -1,7 +1,1 @@
-Hi
-0->[2, 3]
-1->[3, 4]
-2->[0]
-3->[0, 1]
-4->[1]
-Shorttest distance from the vertex zero to all [0, 2, 1, 1, 3]
+Ans :7
