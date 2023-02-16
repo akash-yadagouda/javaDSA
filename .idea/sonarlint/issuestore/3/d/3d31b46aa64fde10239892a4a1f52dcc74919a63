@@ -1,0 +1,27 @@
+
+o
+java:S2293G"YReplace the type specification in this constructor call with the diamond operator ("<>").(û–‡ö
+t
+java:S2293J"YReplace the type specification in this constructor call with the diamond operator ("<>").(Úã®Êÿÿÿÿÿ
+y
+java:S1319"cThe type of "adj" should be an interface such as "List" rather than the implementation "ArrayList".(Èø¢ï
+
+java:S1319+"fThe type of "adlist" should be an interface such as "List" rather than the implementation "ArrayList".(ÿ»öëùÿÿÿÿ
+
+java:S13191"fThe type of "adlist" should be an interface such as "List" rather than the implementation "ArrayList".(‡•äúÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èø¢ï
+f	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßí¶²
+f	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßí¶²
+0
+java:S1220""Move this file to a named package.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(•ø™’ıÿÿÿÿ
+W
+java:S1126 "AReplace this if-then-else statement by a single return statement.(èç¦á
+Q	java:S125."<This block of commented-out lines of code should be removed.(ñŸ²º
+S	java:S1063"9Replace this use of System.out or System.err by a logger.(œ³ãœøÿÿÿÿ
+N	java:S1064"9Replace this use of System.out or System.err by a logger.(¨Ò¾ª
+5
+java:S1659@"Declare "E" on a separate line.(ßí¶²
+N	java:S106<"9Replace this use of System.out or System.err by a logger.(ùõá€
+N	java:S106R"9Replace this use of System.out or System.err by a logger.(ùéæ
+S	java:S106T"9Replace this use of System.out or System.err by a logger.(İòş¡üÿÿÿÿ

@@ -1,0 +1,45 @@
+
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(°†ÿşÿÿÿÿ
+o
+java:S2293?"YReplace the type specification in this constructor call with the diamond operator ("<>").(û–‡ö
+t
+java:S2293B"YReplace the type specification in this constructor call with the diamond operator ("<>").(Úã®Êÿÿÿÿÿ
+t
+java:S2293N"YReplace the type specification in this constructor call with the diamond operator ("<>").(„§ºÊıÿÿÿÿ
+†
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Êë
+~
+java:S1319"cThe type of "adj" should be an interface such as "List" rather than the implementation "ArrayList".(¥€¨·ıÿÿÿÿ
+y
+java:S1319	"cThe type of "ans" should be an interface such as "List" rather than the implementation "ArrayList".(ãºäô
+
+java:S1319&"fThe type of "adlist" should be an interface such as "List" rather than the implementation "ArrayList".(¿Ã¼ïÿÿÿÿÿ
+
+java:S1319+"fThe type of "adlist" should be an interface such as "List" rather than the implementation "ArrayList".(‡•äúÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Êë
+f	java:S117:"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßí¶²
+f	java:S117:"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßí¶²
+0
+java:S1220""Move this file to a named package.
+|
+java:S4165T"aRemove this useless assignment; "ans" already holds the assigned value along all execution paths.(€‰÷ÿşÿÿÿÿ
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Êë
+Q	java:S125
+"<This block of commented-out lines of code should be removed.(Åî„Ö
+V	java:S125"<This block of commented-out lines of code should be removed.(ùß¢ııÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(…šâ¸
+B
+java:S1125"'Remove the unnecessary boolean literal.(¯œ¸¤øÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(œ³¾Š
+S	java:S106-"9Replace this use of System.out or System.err by a logger.(œ³ãœøÿÿÿÿ
+N	java:S106."9Replace this use of System.out or System.err by a logger.(¨Ò¾ª
+5
+java:S1659:"Declare "E" on a separate line.(ßí¶²
+N	java:S1066"9Replace this use of System.out or System.err by a logger.(ùõá€
+Q	java:S125K"<This block of commented-out lines of code should be removed.(÷½åï
+=
+java:S1125S"'Remove the unnecessary boolean literal.(ï¡ÖÍ
+S	java:S106Y"9Replace this use of System.out or System.err by a logger.(²Î§ışÿÿÿÿ
+M	java:S106Z"9Replace this use of System.out or System.err by a logger.(ü„ê!
+N	java:S106["9Replace this use of System.out or System.err by a logger.(›ºŠ

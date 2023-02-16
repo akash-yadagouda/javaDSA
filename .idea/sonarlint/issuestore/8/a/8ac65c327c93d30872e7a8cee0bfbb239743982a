@@ -1,0 +1,55 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(åú×Å
+t
+java:S22938"YReplace the type specification in this constructor call with the diamond operator ("<>").(Òù«øÿÿÿÿ
+t
+java:S2293E"YReplace the type specification in this constructor call with the diamond operator ("<>").(„›íúÿÿÿÿ
+o
+java:S2293G"YReplace the type specification in this constructor call with the diamond operator ("<>").(‘ıÈß
+n
+java:S2293t"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ë’È1
+t
+java:S2293w"YReplace the type specification in this constructor call with the diamond operator ("<>").(î…¼Œøÿÿÿÿ
+y
+java:S1319"cThe type of "adj" should be an interface such as "List" rather than the implementation "ArrayList".(€ñï•
+~
+java:S1319"cThe type of "adj" should be an interface such as "List" rather than the implementation "ArrayList".(»Öışÿÿÿÿ
+y
+java:S1319"cThe type of "adj" should be an interface such as "List" rather than the implementation "ArrayList".(’êÿ
+~
+java:S1319$"cThe type of "adj" should be an interface such as "List" rather than the implementation "ArrayList".(éïß„ûÿÿÿÿ
+y
+java:S13193"cThe type of "adj" should be an interface such as "List" rather than the implementation "ArrayList".(ôùúï
+f	java:S1173"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôùúï
+f	java:S117r"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„Í²
+k	java:S117z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²Û¾ªÿÿÿÿÿ
+0
+java:S1220""Move this file to a named package.
+f
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(’êÿ
+k
+java:S11498"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Òù«øÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ëíê«ÿÿÿÿÿ
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şĞÎå
+=
+java:S1125"'Remove the unnecessary boolean literal.(ï¡ÖÍ
+h	java:S100$"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éïß„ûÿÿÿÿ
+Q	java:S125&"<This block of commented-out lines of code should be removed.(Ğ‘şÕ
+=
+java:S1125*"'Remove the unnecessary boolean literal.(ï¡ÖÍ
+=
+java:S1125;"'Remove the unnecessary boolean literal.(ï¡ÖÍ
+Q	java:S125@"<This block of commented-out lines of code should be removed.(­‚¼
+V	java:S125S"<This block of commented-out lines of code should be removed.(½‡ûîÿÿÿÿÿ
+V	java:S125]"<This block of commented-out lines of code should be removed.(‹ğâ şÿÿÿÿ
+B
+java:S1125^"'Remove the unnecessary boolean literal.( è†òøÿÿÿÿ
+A
+java:S1905_"&Remove this unnecessary cast to "int".(îÑèüÿÿÿÿ
+V	java:S125`"<This block of commented-out lines of code should be removed.(Œ±¦—ùÿÿÿÿ
+B
+java:S1125a"'Remove the unnecessary boolean literal.(í±°¤üÿÿÿÿ
+Q	java:S125c"<This block of commented-out lines of code should be removed.(ì¸Éˆ
+R	java:S125ƒ"<This block of commented-out lines of code should be removed.(İç½ë
+T	java:S106†"9Replace this use of System.out or System.err by a logger.(’Ì ½ıÿÿÿÿ

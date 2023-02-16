@@ -1,0 +1,37 @@
+
+o
+java:S22938"YReplace the type specification in this constructor call with the diamond operator ("<>").(û–‡ö
+t
+java:S2293;"YReplace the type specification in this constructor call with the diamond operator ("<>").(Úã®Êÿÿÿÿÿ
+~
+java:S1319"cThe type of "adj" should be an interface such as "List" rather than the implementation "ArrayList".(¥€¨·ıÿÿÿÿ
+
+java:S1319"fThe type of "adlist" should be an interface such as "List" rather than the implementation "ArrayList".(¿Ã¼ïÿÿÿÿÿ
+
+java:S1319$"fThe type of "adlist" should be an interface such as "List" rather than the implementation "ArrayList".(‡•äúÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á„¦±
+f	java:S117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ„à
+f	java:S1173"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßí¶²
+f	java:S1173"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßí¶²
+0
+java:S1220""Move this file to a named package.
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á„¦±
+V	java:S125"<This block of commented-out lines of code should be removed.(™î¨¤üÿÿÿÿ
+=
+java:S1125"'Remove the unnecessary boolean literal.(ËÔ°…
+B
+java:S1125"'Remove the unnecessary boolean literal.(âİï½ûÿÿÿÿ
+B
+java:S1125"'Remove the unnecessary boolean literal.(¿Ü§òûÿÿÿÿ
+Q	java:S125!"<This block of commented-out lines of code should be removed.(ñŸ²º
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(œ³ãœøÿÿÿÿ
+N	java:S106'"9Replace this use of System.out or System.err by a logger.(¨Ò¾ª
+5
+java:S16593"Declare "E" on a separate line.(ßí¶²
+N	java:S106/"9Replace this use of System.out or System.err by a logger.(ùõá€
+=
+java:S1125I"'Remove the unnecessary boolean literal.(ï¡ÖÍ
+=
+java:S1125K"'Remove the unnecessary boolean literal.(¯ñ—É
+S	java:S106Q"9Replace this use of System.out or System.err by a logger.(¤Æ£“øÿÿÿÿ
