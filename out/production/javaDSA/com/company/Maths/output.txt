@@ -1,0 +1,2 @@
+[false, false, false, false, true, false, true, false, true, true, true, false, true, false, true, true, true, false, true, false, true, true, true, false, true, false]
+2,3,5,7,11,13,17,19,23,25,

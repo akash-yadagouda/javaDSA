@@ -1,0 +1,13 @@
+
+]
+java:S3973"GUse indentation to denote the code conditionally executed by this "if".(²Õèò
+B
+java:S1125"'Remove the unnecessary boolean literal.(âÆü€øÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(—‹Ø•ÿÿÿÿÿ
+]	java:S125"<This block of commented-out lines of code should be removed.(Ïšƒúÿÿÿÿ8Â¾«æ0
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(”Øò¨
+B
+java:S1125("'Remove the unnecessary boolean literal.(É‘•Éüÿÿÿÿ
+N	java:S106)"9Replace this use of System.out or System.err by a logger.(ÿÑğ
+@
+java:S1128"$Remove this unused import 'java.io'.(¬›ãD8Ò¾«æ0

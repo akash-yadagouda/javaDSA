@@ -1,0 +1,18 @@
+
+j
+java:S1104"UMake startTime a static final constant or non-public and provide accessors if needed.(É¸ş4
+i
+java:S1104"SMake endTime a static final constant or non-public and provide accessors if needed.(ìíÕ
+E
+java:S1197"*Move the array designators [] to the type.(¸îß¾üÿÿÿÿ
+E
+java:S1197"*Move the array designators [] to the type.(¸îß¾üÿÿÿÿ
+K
+java:S1854;"5Remove this useless assignment to local variable "i".(½Â –
+K
+java:S1854A"5Remove this useless assignment to local variable "i".(¿Ã¯ş
+<
+java:S1481;"&Remove this unused "i" local variable.(½Â –
+S	java:S106G"9Replace this use of System.out or System.err by a logger.(·÷öŞùÿÿÿÿ
+M	java:S106H"9Replace this use of System.out or System.err by a logger.(ùéj
+S	java:S106L"9Replace this use of System.out or System.err by a logger.(ºş¼šÿÿÿÿÿ

@@ -20,8 +20,6 @@ java:S1319+"fThe type of "adlist" should be an interface such as "List" rather 
 f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Κλ
 f	java:S117:"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ίν¶²
 f	java:S117:"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ίν¶²
-0
-java:S1220""Move this file to a named package.
 |
 java:S4165T"aRemove this useless assignment; "ans" already holds the assigned value along all execution paths.(€‰χÿώÿÿÿÿ
 c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Κλ
