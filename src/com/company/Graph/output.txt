@@ -1,1 +1,113 @@
-Ans :7
+1 1 1 0 0 0 0 1 
+1 0 0 1 0 0 1 1 
+Start[{0,0}, {0,1}, {0,2}, {0,7}, {1,0}, {1,3}, {1,6}, {1,7}]
+Main0+0
+before-1^0
+before1^0
+before0^-1
+before0^1
+Main0+1
+before-1^1
+before1^1
+After1 1
+before0^0
+before0^2
+Main0+2
+before-1^2
+before1^2
+After1 2
+before0^1
+before0^3
+After0 3
+Main0+7
+before-1^7
+before1^7
+before0^6
+After0 6
+before0^8
+Main1+0
+before0^0
+before2^0
+before1^-1
+before1^1
+Main1+3
+before0^3
+before2^3
+before1^2
+before1^4
+After1 4
+Main1+6
+before0^6
+before2^6
+before1^5
+After1 5
+before1^7
+Main1+7
+before0^7
+before2^7
+before1^6
+before1^8
+end[{1,1}, {1,2}, {0,3}, {0,6}, {1,4}, {1,5}]
+___ A 1
+8 8 8 1 0 0 1 8 
+8 1 1 8 1 1 8 8 
+Start[{1,1}, {1,2}, {0,3}, {0,6}, {1,4}, {1,5}]
+Main1+1
+before0^1
+before2^1
+before1^0
+before1^2
+Main1+2
+before0^2
+before2^2
+before1^1
+before1^3
+Main0+3
+before-1^3
+before1^3
+before0^2
+before0^4
+After0 4
+Main0+6
+before-1^6
+before1^6
+before0^5
+After0 5
+before0^7
+Main1+4
+before0^4
+before2^4
+before1^3
+before1^5
+end[{1,5}, {0,4}, {0,5}]
+___ A 2
+8 8 8 1 2 2 1 8 
+8 1 1 8 1 1 8 8 
+Start[{1,5}, {0,4}, {0,5}]
+Main1+5
+before0^5
+before2^5
+before1^4
+before1^6
+Main0+4
+before-1^4
+before1^4
+before0^3
+before0^5
+end[{0,5}]
+___ A 3
+8 8 8 1 2 2 1 8 
+8 1 1 8 1 1 8 8 
+Start[{0,5}]
+Main0+5
+before-1^5
+before1^5
+before0^4
+before0^6
+end[]
+___ A 4
+8 8 8 1 2 2 1 8 
+8 1 1 8 1 1 8 8 
+Ans _______________
+8 8 8 1 2 2 1 8 
+8 1 1 8 1 1 8 8 
