@@ -65,11 +65,11 @@ public class DistanceOfNearestCellHaving{
 
 		printMatrix(mat);
 
-		int[][] ansMat = Ans(mat);
+		// int[][] ansMat = Ans(mat);
 
 		System.out.println("Ans _______________");
 
-		printMatrix(ansMat);
+		printMatrix(ansV2(mat));
 
 	}
 
@@ -83,11 +83,11 @@ public class DistanceOfNearestCellHaving{
 
 		// intitlize with Intger.MAX_VALUE;
 
-		for(int i=0; i<rowMain; i++){
-			for(int j=0; j<colMain; j++){
-				ansMat[i][j] = 0;
-			}
-		}
+		// for(int i=0; i<rowMain; i++){
+		// 	for(int j=0; j<colMain; j++){
+		// 		ansMat[i][j] = 0;
+		// 	}
+		// }
 
 		// create boolean visited matrix 
 		boolean[][] visited = new boolean[rowMain][colMain];
@@ -99,7 +99,6 @@ public class DistanceOfNearestCellHaving{
 			for(int j=0; j<colMain; j++){
 				if(mat[i][j] == 1){
 					queue.add(new Pair(i,j));
-					ansMat[i][j] = 8;
 					visited[i][j] = true;
 				}
 			}
@@ -151,5 +150,58 @@ public class DistanceOfNearestCellHaving{
 			level++;
 		}
 		return ansMat;
+	}
+
+
+	public static int[][] ansV2(int[][] grid){
+		int n = grid.length;
+		int m = grid[0].length;
+
+		boolean[][] visited = new boolean[n][m];
+
+		int ans[][] = new int[n][m];
+
+		Queue<Pair> queue = new LinkedList<Pair>();
+
+		for(int i=0; i<n; i++){
+			for(int j=0; j<m; j++){
+				if(grid[i][j] == 1){
+					queue.add(new Pair(i,j));
+					visited[i][j] = true;
+				}
+			}
+		}
+
+		int dir[][] = {{1,0},{-1,0},{0,1},{0,-1}};
+
+		int level = 0;
+
+		while (!queue.isEmpty()) {
+
+			int size = queue.size();
+
+			for(int i=0; i<size; i++){
+				Pair pair = queue.remove();
+				int row = pair.row;
+				int col = pair.col;
+
+				ans[row][col] = level;
+
+				for(int j=0; j<4; j++){
+					int nbr_row = row + dir[j][0];
+					int nbr_col = col + dir[j][1];
+
+					if(nbr_row >= 0 && nbr_row < n && nbr_col >= 0 && nbr_col < m && !visited[nbr_row][nbr_col]){
+						queue.add(new Pair(nbr_row, nbr_col));
+						visited[nbr_row][nbr_col] = true;
+					}
+				}
+			}
+
+			level++;	
+		}
+
+		return ans;
+
 	}
 }
