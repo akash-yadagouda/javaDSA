@@ -1,13 +1,24 @@
 
 ]
-java:S3973"GUse indentation to denote the code conditionally executed by this "if".(²Õèò
-B
-java:S1125"'Remove the unnecessary boolean literal.(âÆü€øÿÿÿÿ
-V	java:S125"<This block of commented-out lines of code should be removed.(—‹Ø•ÿÿÿÿÿ
-]	java:S125"<This block of commented-out lines of code should be removed.(Ïšƒúÿÿÿÿ8Â¾«æ0
-N	java:S106$"9Replace this use of System.out or System.err by a logger.(”Øò¨
-B
-java:S1125("'Remove the unnecessary boolean literal.(É‘•Éüÿÿÿÿ
-N	java:S106)"9Replace this use of System.out or System.err by a logger.(ÿÑğ
-@
-java:S1128"$Remove this unused import 'java.io'.(¬›ãD8Ò¾«æ0
+java:S3973"GUse indentation to denote the code conditionally executed by this "if".(²Õèò
+]	java:S125"<This block of commented-out lines of code should be removed.(¼ô™ ûÿÿÿÿ8Î¨ìı0
+V	java:S125"<This block of commented-out lines of code should be removed.(—‹Ø•ÿÿÿÿÿ
+I
+java:S1125"'Remove the unnecessary boolean literal.(ÿÄÎµøÿÿÿÿ8Ò¨ìı0
+X	java:S125"<This block of commented-out lines of code should be removed.(ÌÑşÈ8Ò¨ìı0
+]	java:S125"<This block of commented-out lines of code should be removed.(€ÇéÊùÿÿÿÿ8Ô¨ìı0
+]	java:S125"<This block of commented-out lines of code should be removed.(Ÿû¼ûÿÿÿÿ8Ô¨ìı0
+X	java:S125'"<This block of commented-out lines of code should be removed.(’ãëÒ8Ö¨ìı0
+]	java:S125)"<This block of commented-out lines of code should be removed.(¸Ü„òÿÿÿÿÿ8Ö¨ìı0
+X	java:S125-"<This block of commented-out lines of code should be removed.(Ä†âœ8×¨ìı0
+T
+java:S1854J"7Remove this useless assignment to local variable "ans".(Êğ¨8Ú¨ìı0
+E
+java:S1481J"(Remove this unused "ans" local variable.(Êğ¨8ã¨ìı0
+]	java:S125K"<This block of commented-out lines of code should be removed.(£¯©Âùÿÿÿÿ8ä¨ìı0
+]	java:S125P"<This block of commented-out lines of code should be removed.(¥ßŸ×üÿÿÿÿ8å¨ìı0
+]	java:S125R"<This block of commented-out lines of code should be removed.(ØŸŸŸùÿÿÿÿ8å¨ìı0
+]	java:S125V"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8æ¨ìı0
+X	java:S125X"<This block of commented-out lines of code should be removed.(à€Ş˜8æ¨ìı0
+]	java:S125["<This block of commented-out lines of code should be removed.(¼…Ó×ùÿÿÿÿ8è¨ìı0
+]	java:S125_"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8è¨ìı0
